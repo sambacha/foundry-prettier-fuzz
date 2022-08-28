@@ -1,0 +1,19 @@
+{
+  "name": "fmt-fuzz",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/foundry-prettier-fuzz.git"
+  },
+  "keywords": [],
+  "author": "sam bacha",
+  "license": "UPL-1.0",
+  "bugs": {
+    "url": "https://github.com/sambacha/foundry-prettier-fuzz/issues"
+  },
+  "homepage": "https://github.com/sambacha/foundry-prettier-fuzz#readme"
+}
