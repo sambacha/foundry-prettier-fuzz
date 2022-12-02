@@ -1,5 +1,6 @@
 # `fuzz-fmt`
 
+Fuzzing Foundry's fmt output
 
 ## Setup
 
@@ -9,6 +10,8 @@ brew install delta
 ```
 
 ```bash
+cd fuzz-fmt/
 make
 ./fuzz-foundry-fmt.sh
 ```
+
