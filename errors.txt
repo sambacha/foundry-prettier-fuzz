@@ -1,0 +1,3 @@
+Error:
+Failed to parse Solidity code for /Users/sbacha/foundry-prettier-fuzz/test/Lexer_Coverage.t.sol. Leaving source unchanged.
+Debug info: [Diagnostic { loc: File(0, 93, 94), level: Error, ty: ParserError, message: "unrecognised token ';', expected string", notes: [] }]
