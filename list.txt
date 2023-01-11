@@ -1,0 +1,2 @@
+foundry_nightly_linux_amd64.tar.gz
+foundry_nightly_darwin_arm64.tar.gz
