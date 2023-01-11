@@ -1,4 +1,3 @@
-
 interface testInterface {
     function C(function (string memory) external) external;
     function D(string calldata) external;
@@ -9,17 +8,21 @@ interface testInterface {
 contract testContract {
     function g(string calldata) external {}
     function h(string memory) external {}
+
     function i(string calldata str) external {
         this.h(str);
         this.g(str);
     }
+
     function j(string memory str) external {
         this.h(str);
         this.g(str);
     }
+
     function k(string memory str) external pure {
         abi.encodeCall(testInterface.D, (str));
     }
+
     string s;
 
     function main() external view {
