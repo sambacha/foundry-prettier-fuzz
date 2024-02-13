@@ -1,4 +1,5 @@
 # -*- mode: gitignore; -*-
+prettier-plugin-solidity/tests/
 /out
 cache/
 artifacts/

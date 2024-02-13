@@ -1,12 +1,13 @@
 {
   "name": "fmt-fuzz",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "test lint and fmt",
   "private": true,
   "scripts": {
-   "setup": "make",
-   "test" "bash t.sh"
-},
+    "prettier": "npx prettier --write --plugin=prettier-plugin-solidity '/**/*.sol'",
+    "setup": "make",
+    "test": "bash t.sh"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sambacha/foundry-prettier-fuzz.git"
@@ -19,7 +20,7 @@
   },
   "homepage": "https://github.com/sambacha/foundry-prettier-fuzz#readme",
   "devDependencies": {
-    "prettier": "^2.8.2",
+    "prettier": "^2.8.8",
     "prettier-plugin-solidity": "^1.1.1"
   }
 }
